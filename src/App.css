@@ -31,13 +31,14 @@ header{
 main{
   place-items: center;
   margin:2rem;
+  border-radius:1.6rem;
 }
-
 
 
 footer div{
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 
 footer img{
@@ -52,9 +53,63 @@ footer p{
   font-size: small;
 }
 
-@media (max-width: 527px){
+@media (max-width: 642px){
+  main p{
+    font-size:0.5rem;
+  }
+  main h1{
+    font-size:2em;
+  }
+  main h3{
+    font-size: 1em;
+  }
+  main img{
+    width: 100%;
+  }
+ 
+  #info-main{
+    font-size: 1.1em;
+    padding:3rem;
+    text-align: center;
+  }
+
   .rightHeader a{
-    display: none;
+    font-size: 0.7em; 
+    padding-right: 0.3rem;
+  }
+
+  button {
+    padding: 0.3em 1em;
+    font-size: 0.7em;
+  }
+  
+  #companyName{
+    font-size: 1.5rem;
+  }
+
+  header{
+    margin-bottom: 0px;
+  }
+
+  main{
+    margin-top: 0px;
   }
 }
 
+h3{
+  margin: 0px;
+  display: inline-block;
+}
+
+.countdown-timer p{
+  font-size: 2em;
+}
+
+.countdown-timer{
+  text-align: center;
+}
+
+.countdown-timer h2{
+  display: inline-block;
+  margin-bottom: 2px;
+}
