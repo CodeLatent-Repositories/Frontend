@@ -1,4 +1,4 @@
-import Image from 'next/image'; // Use next/image for optimized images
+import { CustomImage } from '../Components/image'
 
 const reasons = [
   {
@@ -58,7 +58,7 @@ const CardCode = () => {
               </div>
               {/* Image */}
               <div className="md:w-1/2">
-                <Image
+                <CustomImage
                   src={image}
                   alt={title}
                   width={500} // Adjust width as necessary

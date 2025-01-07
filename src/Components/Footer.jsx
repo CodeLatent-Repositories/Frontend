@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
+import { CustomImage } from '../Components/image'
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="footerLogo"
         >
-          <Image src="/insta.png" alt="Instagram" width={32} height={32} />
+          <CustomImage src="/insta.png" alt="Instagram" width={32} height={32} />
         </Link>
 
         <Link
@@ -22,7 +22,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image src="/gmail.png" alt="Gmail" width={32} height={32} />
+          <CustomImage src="/gmail.png" alt="Gmail" width={32} height={32} />
         </Link>
 
         <Link
@@ -30,11 +30,11 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image src="/linkedin.png" alt="LinkedIn" width={32} height={32} />
+          <CustomImage src="/linkedin.png" alt="LinkedIn" width={32} height={32} />
         </Link>
 
         <Link href="#" target="_blank" rel="noopener noreferrer">
-          <Image src="/twitter.png" alt="Twitter" width={32} height={32} />
+          <CustomImage src="/twitter.png" alt="Twitter" width={32} height={32} />
         </Link>
       </div>
       <p className="mt-4 mb-1 text-sm text-black">

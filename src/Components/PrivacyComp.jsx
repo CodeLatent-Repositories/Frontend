@@ -1,6 +1,6 @@
 'use client'
 
-import Image from 'next/image';
+import { CustomImage } from '../Components/image'
 
 export default function Landing() {
   return (
@@ -29,7 +29,7 @@ export default function Landing() {
 
           </div>
           <div className='flex items-center justify-center h-auto max-w-2xl text-blue-200'>
-            <Image src="Mobileencryption-amico.svg" alt="" className=' md:w-[800px] md:h-[500px] h-auto w-auto' 
+            <CustomImage src="Mobileencryption-amico.svg" alt="" className=' md:w-[800px] md:h-[500px] h-auto w-auto' 
             width={500}
             height={500}/>
           </div>

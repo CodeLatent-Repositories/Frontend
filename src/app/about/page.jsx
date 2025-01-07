@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image.js';
+import { CustomImage } from '../../Components/image'
 import Page_02 from '../../Components/Page_02';
 
 const About =() =>{
@@ -27,7 +27,7 @@ const About =() =>{
         </div>
 
         <div className="flex items-center justify-center h-auto max-w-2xl text-blue-200 lg:w-3xl lg:pl-20">
-          <Image
+          <CustomImage
             src="/Piyush.png"
             alt="Piyush Choudhary's Profile Picture"
             className="w-auto h-auto max-w-full max-h-[500px]"

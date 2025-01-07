@@ -1,9 +1,9 @@
 'use client'
 
 import { useRef, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { CustomImage } from '../Components/image'
 
 
 function CourseSec() {
@@ -87,7 +87,7 @@ function CourseSec() {
         </div>
 
         <div className="flex-1 mb-6 md:mb-0 text-center">
-          <Image
+          <CustomImage
             src="/hero-image.png"
             alt="Learning Platform Interface"
             className="w-[80%] md:max-w-full h-auto rounded-lg mx-auto"

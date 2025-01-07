@@ -1,6 +1,6 @@
 'use client';
 
-import Image from "next/image"; 
+import { CustomImage } from '../Components/image'
 const Card = () => {
   const cardData = [
     {
@@ -63,7 +63,7 @@ const Card = () => {
             className="bg-white border rounded-lg shadow-md overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105"
           >
             {/* Updated to use next/image */}
-            <Image
+            <CustomImage
               src={card.image}
               alt={card.title}
               width={500}
@@ -87,7 +87,7 @@ const Card = () => {
               </ul>
               <div className="flex items-center gap-2 mb-7">
                
-                <Image
+                <CustomImage
                   src="/people.png"
                   alt={card.list}
                   width={16}
@@ -99,7 +99,7 @@ const Card = () => {
               </div>
               <div className="flex items-center gap-3">
                 {/* Author image */}
-                <Image
+                <CustomImage
                   src="/code-lint-jpg-logo.jpg"
                   alt={card.author}
                   width={40}
