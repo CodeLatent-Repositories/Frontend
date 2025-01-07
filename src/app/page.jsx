@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import Image from "next/image";
+import { CustomImage } from '../Components/image'
 import Card from "../Components/Card";
 import CardCode from "../Components/Card-2";
 import Testimonials from "../Components/Testimonials";
@@ -38,7 +38,7 @@ const Home = () => {
             </div>
           </div>
           <div className="flex items-center justify-center h-auto max-w-2xl text-blue-200">
-            <Image src="/Programming-amico.png" alt="Programming" width={400} height={300} />
+            <CustomImage src="/Programming-amico.png" alt="Programming" width={400} height={300} />
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ const Home = () => {
 
             {/* Image Section */}
             <div className="flex-1 p-6">
-            <Image src="/team.svg" alt="Course Image" width={300} height={300} className="w-full h-auto object-cover rounded-lg"/>
+            <CustomImage src="/team.svg" alt="Course Image" width={300} height={300} className="w-full h-auto object-cover rounded-lg"/>
             </div>
           </div>
         </div>

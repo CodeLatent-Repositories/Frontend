@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import { CustomImage } from '../Components/image'
 
 const testimonials = [
   {
@@ -36,7 +36,7 @@ const Testimonials = () => {
               className="flex flex-col bg-white shadow-lg rounded-lg p-6 border border-gray-200 hover:shadow-xl cursor-pointer transform transition-all duration-300 hover:scale-105"
             >
               <div className="flex items-center mb-4">
-                <Image
+                <CustomImage
                   src={image}
                   alt={name}
                   width={50} 

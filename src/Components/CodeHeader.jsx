@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import Image from 'next/image';
+import { CustomImage } from '../Components/image'
 import { usePathname } from 'next/navigation';
 
 const navigation = [
@@ -59,7 +59,7 @@ export default function CodeHeader() {
             <div className="flex items-center justify-between text-blue-200">
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Code Latent</span>
-                <Image
+                <CustomImage
                   alt="Logo"
                   src="/code-lint-jpg-logo.jpg" // Place your image in the public folder
                   className="h-10 rounded-lg w-auto"

@@ -1,7 +1,9 @@
+import { productionCdnPrefix } from './cdn-cofig.js';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  assetPrefix: 'https://custom-webpage-static-assets-production.fermion.app/6758087080313337cad7883a-custom-zip-pages/',
+  assetPrefix: productionCdnPrefix,
   images: {
     remotePatterns: [
       {

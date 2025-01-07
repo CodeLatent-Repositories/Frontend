@@ -2,7 +2,7 @@ import React from 'react';
 import {Linkedin, Mail} from 'lucide-react';
 import InstructorStats from './InstructorStats';
 import SocialLink from './SocialLink';
-import Image from 'next/image';
+import { CustomImage } from '../Components/image'
 
 export default function InstructorSection() {
   return (
@@ -17,9 +17,10 @@ export default function InstructorSection() {
         <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
-            <Image
+            <CustomImage
               src="/piyush2.jpg"
               alt="Piyush"
+              // @ts-ignore
               className="relative w-72 h-72 object-cover rounded-xl"
               width={288}
               height={288}

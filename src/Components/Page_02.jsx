@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FaGraduationCap, FaLightbulb, FaHandsHelping, FaChalkboardTeacher } from "react-icons/fa";
-import Image from "next/image"; 
+import { CustomImage } from '../Components/image'
 
 const Page_02 = () => {
   const teamMembers = [
@@ -87,7 +87,7 @@ const Page_02 = () => {
                 className="text-center"
               >
                 <div className="relative mb-4 mx-auto w-48 h-48 overflow-hidden rounded-full">
-                  <Image
+                  <CustomImage
                     src={member.image}
                     alt={member.name}
                     width={200}
