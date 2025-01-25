@@ -15,10 +15,13 @@ const Home = () => {
           <div className="text-center">
             <h1 className="text-6xl font-bold text-white mb-6 animate-title">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-                7-Day Free DSA Bootcamp
+                7-Days DSA Bootcamp
               </span>
             </h1>
-            <p className="mt-8 text-lg font-medium text-blue-200 mb-8 max-w-2xl animate-fade-in">
+            <p className="mt-8 text-lg font-medium text-blue-200 max-w-2xl animate-fade-in">
+              - Starting from feb 1
+            </p>
+            <p className="mt-2 text-lg font-medium text-blue-200 mb-8 max-w-2xl animate-fade-in">
               {`Dive into the world of coding with our specially designed 7-Day Coding Bootcamp,tailored for absolute beginners. No prior programming experience? No problem!`}
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">

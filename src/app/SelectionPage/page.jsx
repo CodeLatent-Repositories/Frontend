@@ -55,9 +55,9 @@ const SelectionPage=() =>{
           </div>
 
           <div className="mt-6 md:mt-[4rem]">
-            <Link href="https://codelatent.fermion.app/register">
+            <Link href="/redirect">
               <button className="inline-block px-6 md:px-8 py-3 md:py-4 w-44 md:w-52 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-700 transition duration-300">
-                Launch
+              Let&rsquo;s Go
               </button>
             </Link>
           </div>
@@ -89,10 +89,7 @@ const SelectionPage=() =>{
           The screening test assesses the candidate&apos;s knowledge, skills, and capabilities relevant to the position or program.
         </p>
         <ul className="mt-4 list-disc pl-6 space-y-2">
-          <li>Written Tests (Multiple choice, short-answer, essays)</li>
-          <li>Online Assessments (Aptitude, psychometric, coding challenges)</li>
-          <li>Skill-based Tests (Practical tasks)</li>
-          <li>Group Tasks or Case Studies (For teamwork, communication assessment)</li>
+          <li>Written Tests (Multiple choice)</li>
         </ul>
       </div>
 
@@ -103,11 +100,7 @@ const SelectionPage=() =>{
           The interview assesses the candidate interpersonal skills, motivations, and fit with the organization.
         </p>
         <ul className="mt-4 list-disc pl-6 space-y-2">
-          <li>Initial Video Interview (Basic qualifications and motivations)</li>
-          <li>Technical Interview (Assessing technical skills and problem-solving)</li>
-          <li>Behavioral Interview (Past experiences and decision-making)</li>
-          <li>Panel Interview (Multiple interviewers, deeper assessment)</li>
-          <li>Final Interview (With senior leadership, alignment with vision)</li>
+          <li>Introduction and Warm-up (Focus on the core technologies and concepts covered in the bootcamp)</li>
         </ul>
       </div>
       <div className="mt-12 text-center py-6 bg-blue-100 rounded-lg">

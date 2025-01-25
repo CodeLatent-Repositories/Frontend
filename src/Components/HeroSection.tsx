@@ -17,20 +17,24 @@ export default function HeroSection() {
             <Code2 className="w-20 h-20 text-blue-400 mb-6" />
           </div>
           
-          <h1 className="text-6xl font-bold text-white mb-6 animate-title">
+          <h1 className="text-6xl font-bold text-white mb-2 animate-title">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-              7-Day Free DSA Bootcamp
+              7-Days DSA Bootcamp
             </span>
           </h1>
+          <p className="mt-3 text-lg font-medium text-blue-200 max-w-2xl animate-fade-in mb-4">
+          - Starting from feb 1
+          </p>
           
           <p className="text-xl text-blue-200 mb-8 max-w-2xl animate-fade-in">
             Master Data Structures & Algorithms with Java in an intensive, hands-on bootcamp designed for future tech leaders.
           </p>
 
-          <a href="https://codelatent.fermion.app/api/buy-course?course-slug=bootcamp" ><button className="group px-8 py-4 bg-blue-600 text-white rounded-full font-semibold 
+          <a href="https://codelatent.fermion.app/api/buy-course?course-slug=him-opportunity
+          " ><button className="group px-8 py-4 bg-blue-600 text-white rounded-full font-semibold 
             hover:bg-blue-700 transition-all duration-300 animate-pulse flex items-center space-x-2">
             <span>Enroll Now</span>
-            <ChevronRight className="group-hover:translate-x-1 transition-transform" />
+            <ChevronRight className="group-hover:translate-x-1 transition-transform" />{/*https://codelatent.fermion.app/api/buy-course?course-slug=bootcamp Old Link*/}
           </button></a>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
